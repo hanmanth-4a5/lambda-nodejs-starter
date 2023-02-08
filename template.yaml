@@ -17,7 +17,7 @@ Parameters:
     Type: "String"
 
 Resources:
-  LambdaInstagramWrapper:
+  github-2-lambda:
     Type: 'AWS::Serverless::Function'
     Properties:
       Role: !Ref LambdaRole
